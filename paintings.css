@@ -1,0 +1,46 @@
+/*
+filter:grayscale()
+ display : none,inline,inline-block,block
+ element:hover element{
+
+}
+
+  */
+
+
+.paintings {
+  text-align: center;
+
+}
+
+.msg {
+  border: 1px solid midnightblue;
+  padding: 3px;
+  width: 250px;
+  text-align: center;
+  margin-left: 550px;
+  display: none;
+
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  filter: grayscale();
+}
+
+img:hover {
+  filter: none;
+}
+
+.paintings:hover .msg {
+  display: block;
+}
