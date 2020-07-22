@@ -1,0 +1,44 @@
+<!--
+Bill, tip %, no. of people given. Calculate tip for each person
+  -->
+
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="tipCalc.css">
+      <title> Tip Calc </title>
+    </head>
+    <body>
+
+      <div id="calcBox">
+        <h1>Tip Calculator</h1> <br>
+        <p> Total bill amount :</p>
+        <p> Rs. <input type="number" id="amt"> </p> <br>
+        <p> How would you rate the service?(tip %) </p>
+        <select id="tipPercent">
+          <option  disabled selected value="0"> Choose </option>
+          <option value="0.25">Excellent(25%)</option>
+          <option value="0.2">Very good(20%)</option>
+          <option value="0.15">Good(15%)</option>
+          <option value="0.1">Okay(10%)</option>
+          <option value="0.3">Bad(5%)</option>
+
+        </select> <br> <br>
+
+        <p> How many people to split the bill between?</p>
+        <input type="text" id="people"> <br> <br> <br>
+        <button type="button" id="calcButton" onclick="calcTip()" > Calculate </button> <br><br><br>
+
+         <b> <div id="tipAmount">  </div> </b>
+
+
+      </div>
+
+
+
+      <script type="text/javascript" src="tipCalc.js">
+
+      </script>
+    </body>
+  </html>
