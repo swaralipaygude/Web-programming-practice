@@ -1,0 +1,55 @@
+<script src="https://www.dukelearntoprogram.com//course1/common/js/image/SimpleImage.js">
+</script>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Image filters</title>
+  </head>
+  <body>
+<h1> Image filters </h1>
+
+<div id="content">
+
+  <div="divUpload">
+
+    <h3> Upload an image and try out      different filters on it! </h3>
+
+    <canvas id="can">
+
+    </canvas>
+
+
+      <p>  Upload image : &nbsp&nbsp
+      <input type="file" id="fileImg" multiple="false" accept="image/*" onchange="loadImg()">
+        </p>
+  </div>
+
+  <div id="divFilters">
+    <h3> Filters </h3>
+
+      <input type="button" value="Grayscale" id="btGray" onclick="grayscale()">
+
+      <input type="button" value="Green tint" id="btGreen" onclick="green()">
+
+      <input type="button" value="Red tint" id="btRed" onclick="red()">
+
+        <input type="button" value="Blue tint" id="btBlue" onclick="blue()">
+
+         <input type="button" value="Negative" id="btNegative" onclick="negative()">
+
+         <input type="button" value="Rainbow" id="btRainbow" onclick="rainbow()">
+          <br>
+
+        <input type="button" value="Reset image" id="btReset" onclick="reset()">
+
+  </div>
+
+</div>
+
+<script type="text/javascript" src="script.js">
+      </script>
+
+</body>
+</html>
