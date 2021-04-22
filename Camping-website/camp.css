@@ -1,0 +1,39 @@
+/*This is a comment */
+
+  body
+{ /*background-color: black; */
+  height: 100%;
+  width: 100%;
+  background-image: url("img.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  /*background-size:auto;  1400px 800px*/
+ }
+
+
+h1 { background-color: black;
+     height: 50px;
+     width: 30%;
+     text-align: center;
+     color : white;
+     font-family: "Verdana", Sans-serif;
+     }
+
+p { text-align : left;
+    color: black;
+    }
+
+h3 {
+     color: black;
+    }
+
+h2 {
+     color: black;
+    }
+
+h5 {
+     color: black;
+    }
+
+ul { text-align : left;
+     }
