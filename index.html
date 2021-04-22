@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive website</title>
+  </head>
+  <body>
+
+<h1> Interactivity </h1>
+
+<canvas id="d1" class="bluebg">
+
+</canvas>
+<canvas id="d2" class="greenbg">
+
+</canvas>
+<br> <br>
+<p>
+
+  <input type="range" class="butn" id="slid" min="10" max="100" value="50" oninput="square()" > &nbsp&nbsp&nbsp
+  <input type="color" class="butn" id="colpick" value="#001A57" onchange="pickcol()" > &nbsp&nbsp&nbsp
+  <input type="button" class="butn" id="b2" value="make green" onclick="togreen()" > &nbsp&nbsp&nbsp
+
+</p>
+
+<script type="text/javascript" src="script.js">
+      </script>
+
+</body>
+</html>
