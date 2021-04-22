@@ -1,0 +1,85 @@
+
+
+.poster img {
+  width:100px;
+}
+
+#content {
+  border: 2px solid black;
+  padding:30px;
+}
+
+#topP {
+  text-align: center;
+  margin-top:100px;
+  font-size:2em;
+  
+}
+a {
+  color:blue;
+}
+
+a:hover {
+  color:red;
+}
+
+body {
+  background-color:LightGray;
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
+  color: DarkBlue;
+  font-family:sans-serif,serif;
+  font-size: 3em;
+  border-top-style:solid;
+  border-bottom-style:solid;
+  border-width:3px;
+  border-color:black;
+  margin-bottom:2px;
+  padding:10px;
+}
+
+h3 {
+  font-size:2.3em;
+  color:DarkBlue;
+}
+h5 {
+  font-size:2.5em;
+}
+img {
+  padding:20px;
+  
+}
+
+li {
+  font-size:1.7em;
+  font-family:verdana;
+  padding:10px;
+}
+
+li li {
+  font-size:0.8em;
+  font-family:sans-serif;
+}
+
+p {
+  font-size:1.3em;
+}
+
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  width:45em;
+  font-size:1.2em;
+}
+
+th {
+  padding:15px;
+  font-family:verdana;
+  font-size:1.3em;
+}
