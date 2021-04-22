@@ -1,0 +1,31 @@
+.changeBg {
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+}
+
+.anim {
+  text-align: center;
+  margin: 30px;
+  background-color:green;
+  position: relative;
+}
+
+#anim1 {
+  height: 50px;
+  width: 50px;
+  opacity: 0.2;
+}
+
+#anim2 {
+  height: 400px;
+  width: 600px;
+}
+
+#anim4 {
+  height: 200px;
+  width: 400px;
+  background-color: lightblue;
+  position: relative;
+
+}
