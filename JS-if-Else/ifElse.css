@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+img {
+  position: relative;
+  left : 500px;
+  margin: 20px;
+}
