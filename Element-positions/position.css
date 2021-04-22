@@ -1,0 +1,85 @@
+
+.posStat {
+  position: static;
+  margin: 50px;
+  border: 2px solid black;
+  height: 200px;
+}
+
+.posAbs {
+  position: absolute;
+  border: 2px solid blue;
+  left: 200px;
+  width: 300px;
+  height: 120px;
+}
+
+.posRel {
+  position: relative;
+  border: 2px solid red;
+  width: 700px;
+  left: 6px;
+  bottom : 5px;
+}
+
+.posFix {
+  position: fixed;
+  border: 2px solid green;
+  background-color: lightgreen;
+  bottom: 10px;
+  width : 100px;
+  height: 50px;
+  right: 5px;
+  bottom: 200px;
+}
+
+.posSticky {
+  position: sticky;
+  width: 200px;
+  height: 50px;
+  top: 2px;
+  border: 2px solid green;
+  background-color: lime;
+}
+
+.para {
+  width: 700px;
+
+}
+
+.steps {
+  border: 3px solid black;
+  background-color: midnightblue;
+  width: 200px;
+  height: 50px;
+  position: relative;
+
+}
+
+#st1 {
+  left: 10px;
+
+}
+
+#st2 {
+  left: 60px;
+
+}
+
+#st3 {
+  left: 110px;
+
+}
+
+#st4 {
+  left: 160px;
+
+}
+
+img {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  left: 5px;
+  z-index: -1;
+}
