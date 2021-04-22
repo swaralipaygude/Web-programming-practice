@@ -1,0 +1,23 @@
+h1 {
+  font-family : sans;
+  font-size: 40pt;
+  text-align: center;
+}
+
+.butn {
+  font-size:15pt;
+}
+p {
+  padding: 20pt;
+}
+canvas{
+  margin-left: 30px;
+  font-size: 20pt;
+  font-family: calibri;
+  width: 250pt;
+  height : 150pt;
+  background-color: lightgray;
+}
+
+
+
