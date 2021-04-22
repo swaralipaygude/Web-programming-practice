@@ -1,0 +1,35 @@
+
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  height: 400px;
+
+}
+
+.card-img-top {
+  height: 100px;
+  padding: 20px;
+}
+
+
+.jumbotron {
+  background-image: url("trees6.jpg");
+  background-color: #cccccc;
+  color: white;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#card1 {
+  float: left;
+}
+#card2 {
+  float: left;
+}
+#card3 {
+  float: left;
+}
