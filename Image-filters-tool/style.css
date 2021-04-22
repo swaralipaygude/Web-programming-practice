@@ -1,0 +1,66 @@
+
+#btup {
+  font-size: 20pt;
+  width: 100pt;
+}
+
+#content {
+  margin-left : 30pt;
+}
+
+#divUpload {
+  padding : 10pt;
+  margin : 20pt;
+  position : relative;
+  
+}
+
+#divFilters {
+  padding : 10pt;
+  margin : 20pt;
+  position : relative;
+  
+}
+
+
+body {
+  border: 1pt solid black;
+  margin: 20pt;
+  padding : 10pt;
+  background-color : lightcyan;
+}
+
+canvas {
+  border: 1pt solid black;
+  padding : 2pt;
+  margin: 20pt;
+  width: 350pt;
+  height:200pt;
+}
+
+h1 {
+ 
+  margin: 20pt;
+  padding : 10pt;
+  text-align:center;
+  font-size: 3rem;
+  font-style : italic;
+  font-weight : 100;
+  font-family: Courier, monospace;
+}
+
+h3 {
+  margin : 20pt;
+}
+
+input {
+  padding : 5pt;
+  margin : 5pt;
+  background-color : black;
+  color : white;
+}
+
+p {
+  margin: 2rem;
+  font-size: 1.5rem;
+}
