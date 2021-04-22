@@ -1,0 +1,17 @@
+
+#userInter {
+  height: 100px;
+  width: 200px;
+  margin: 20px;
+  margin-bottom: 50px;
+  background-color: #acb0b5;
+  text-align: center;
+}
+
+.dataTypes {
+  height: 100px;
+  width: 200px;
+  margin: 20px;
+  margin-bottom: 50px;
+  background-color: limegreen;
+}
