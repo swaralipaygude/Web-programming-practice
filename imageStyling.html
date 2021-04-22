@@ -1,0 +1,90 @@
+<!--
+  Properties and styling of images
+  -->
+
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="imageStyling.css">
+      <title>Images styling</title>
+    </head>
+    <body>
+      <h1>Different styling of images</h1>
+
+      <p> Box shadow effect :</p>
+      <img src="trees.jpg" alt="" id="img1"> <br> <br>
+
+      <p> The opacity property can take a value from 0.0 - 1.0. The lower the value,
+         the more transparency.<br>The opacity property is often used
+        together with the :hover selector to change the opacity on mouse-over.<br>
+        This is an image with opacity 0.5, opaque on hover : </p>
+
+      <img src="trees2.jpg" alt="" id="img2"> <br> <br>
+
+      <p> Text in transparent box in an image :</p>
+      <div class="textOnImg">
+        <div class="transbox">
+          <p>Some text placed in the transparent box.</p>
+        </div>
+      </div> <br><br>
+
+      <p> Rounded corners <br> border-radius: 10%; </p>
+        <img src="trees4.jpg" alt="" id="img4"> <br><br>
+
+        <p> Responsive images will automatically adjust to fit the size of the screen.
+            Resize the browser window to see the effect.
+            If you want an image to scale down if it has to, but never scale up
+             to be larger than its original size, use this property:
+             max-width: 100%; height: auto;</p>
+        <img src="trees5.jpg" alt="" id="img5"> <br><br>
+
+        <p> To center an image, set left and right margin to auto and make it
+          into a block element,ie, display : block;</p>
+          <img src="trees2.jpg" alt="" id="img6"> <br><br>
+
+          <p>Responsive Polaroid Images / Cards</p>
+
+            <div class="polaroid">
+              <img src="trees5.jpg" alt="" id="img7">
+              <div class="container">
+              <p> Caption </p>
+              </div>
+            </div>
+            <br><br>
+
+
+            <p> FILTERS : blur,brightness,contrast,grayscale,hue-rotate,
+                invert,opacity,saturate,sepia,drop-shadow </p>
+
+        <img src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="blur" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="brightness" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="contrast" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="grayscale" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="huerotate" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="invert" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="opacity" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="saturate" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="sepia" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+        <img class="shadow" src="pineapple.jpg" alt="Pineapple" width="300" height="300">
+
+
+
+
+  <!--    <p> The CSS border-image property allows you to specify an image to be
+        used instead of the normal border around an element. The property has
+        three parts : <br> 1. The image to use as the border
+        2. Where to slice the image
+        3. Define whether the middle sections should be repeated or stretched <br>
+        The border-image property takes the image and slices it into nine sections,
+        like a tic-tac-toe board. It then places the corners at the corners,
+        and the middle sections are repeated or stretched as you specify.
+        Note: For border-image to work, the element also needs the border property set!
+      </p>
+      <p id="imgBorder"> Some text </p>
+      -->
+
+
+    </body>
+  </html>

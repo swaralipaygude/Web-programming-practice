@@ -1,0 +1,77 @@
+<!-- Javascript trial
+
+  -->
+
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="JStrial.css">
+      <title> Javascript trial </title>
+    </head>
+    <body>
+
+      <h3> Button interactivity </h3>
+      <button type="button" name="button" onclick="buttonAlert()"> Click here </button>
+
+      <button type="button" name="button" onclick="dateTimeAlert()"> Show date/time </button>
+      <br><br>
+      <h3> Change text/styling dynamically</h3>
+
+      <p id="originalText"> Original text </p>
+      <button type="button" name="button" onclick="changeText()"> Change text </button>
+      <button type="button" name="button" onclick="changeCSS()"> Change styling</button>
+
+      <br><br>
+
+      <h3> Change styling of page </h3>
+      <button type="button" name="button" onclick="addBorder()"> Add border</button>
+      <button type="button" name="button" onclick="addBgColor()"> Add background color</button>
+      <br><br> <br>
+
+      <h3> Other event listeners </h3>
+
+      <b>On mouse out</b>
+      <p>Put mouse in, then out to change bg color of div.</p>
+
+      <div id="divOne" onmouseout="onMouseOut()">
+
+      </div>
+
+      <b>On mouse up</b>
+      <p> Click here, when you release the mouse(up), bg color of div and of
+        whole page will change.</p>
+
+      <div id="divTwo" onmouseup="onMouseUp()">
+
+      </div>
+
+      <b>On key down </b>
+      <p> Start entering text, the bg color of div and the caption changes.</p>
+      <br>
+      <input type="text" name="" value="" id="ipText" onkeydown="onKeyDown()" >
+
+      <div id="divThree" >
+
+      </div>
+      <p id="cap"> This is the caption </p>
+      <br><br>
+
+      <h3> Using variables dynamically </h3>
+      <p> Start typing to get an alert displaying the dynamic variable.</p>
+      <!-- 4 diff methods to call the function -->
+      <input type="text" name="" value="" id="ipTextTwo" onkeydown="onKeyDownAlert(6000)">
+      <input type="text" name="" value="" id="ipTextThree" onkeydown="onKeyDownAlert('How you doin')">
+      <!-- the variables myVar1 and myVar2 are initialized in js file -->
+      <input type="text" name="" value="" id="ipTextFour" onkeydown="onKeyDownAlert(myVar1)">
+      <input type="text" name="" value="" id="ipTextFive" onkeydown="onKeyDownAlert(myVar2)">
+
+
+
+
+
+
+      <!-- JS script link at the end of body-->
+      <script type="text/javascript" src="JStrial.js"> </script>
+    </body>
+  </html>

@@ -1,0 +1,63 @@
+<!-- Javascript data types
+  -->
+
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="JSDataTypes.css">
+      <title>JS Data Types</title>
+    </head>
+    <body>
+      <h1> Data types</h1>
+      <br>
+
+      <p id="p1"> On mouse out : number var is displayed</p>
+      <div class="dataTypes" id="div1" onmouseout="showNum(num)">
+      </div>
+
+      <p id="p2"> On mouse out : string var is displayed</p>
+      <div class="dataTypes" id="div2" onmouseout="showStr(str)">
+      </div>
+
+      <p id="p3"> On mouse out : array var is displayed</p>
+      <div class="dataTypes" id="div3" onmouseout="showArr(arr)">
+      </div>
+
+      <p id="p4"> On mouse out : boolean var is displayed</p>
+      <div class="dataTypes" id="div4" onmouseout="showBool(bool)">
+      </div>
+
+      <p id="p5"> On mouse out : object var is displayed</p>
+      <div class="dataTypes" id="div5" onmouseout="showObj(obj)">
+      </div>
+
+      <h2> User interaction with variable (using array) </h2>
+
+      <div id="userInter">
+        <button type="button" name="button" onclick="incr()"> ++ </button>
+        <p id="currNo">  </p>
+        <button type="button" name="button" onclick="decr()"> -- </button>
+      </div>
+
+      <h2> Using objects </h2>
+      <div id="obj">
+        <h4> TV Show </h4>
+
+        <p id="show"> &nbsp  </p>
+        <button type="button" name="button" onclick="showName()"> Name </button>
+        <button type="button" name="button" onclick="showGenre()"> Genre </button>
+        <button type="button" name="button" onclick="showYear()"> Year </button>
+        <button type="button" name="button" onclick="showSeasons()"> Seasons </button>
+        <button type="button" name="button" onclick="showTheme()"> Theme song </button>
+
+      </div>
+
+
+
+
+
+      <script type="text/javascript" src="JSDataTypes.js">
+      </script>
+    </body>
+  </html>
